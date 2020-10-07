@@ -1,0 +1,55 @@
+body{
+
+    background-color:rgb(255, 255, 255);
+}
+
+.container{
+
+    max-width:800px;
+    margin:auto;
+    font-family:Tahoma;
+}
+
+.month{
+
+    text-align:center;
+    background-color:rgb(81, 30, 148);
+    font-size:2.5em;
+    letter-spacing:1px;
+    color:gray;
+    padding:25px;
+    border:1px solid skyblue;
+}
+
+table, th, td{
+
+    width:100%;
+    table-layout:fixed;
+    text-align:center;
+    font-size:17px;
+    border-collapse:collapse;
+    border:1px solid blue;
+
+}
+
+
+tr, th, td{
+
+    padding:15px;
+}
+
+th{
+
+    background:pink;
+
+}
+
+td{
+
+    background:rgb(194, 224, 61);
+}
+
+td:hover{
+
+    background:rgb(250, 138, 34);
+}
